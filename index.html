@@ -10,13 +10,30 @@
 
 <body>
     <section class="Container">
-        <form action="" id="form">
+        <form id="form">
             <h1 class="formTexts" id="headerForm">New User</h1>
-            <label class="formTexts" for="nameOrgan">Name Organ</label>
+
+            <label class="formTexts" for="nameOrgan">Digite o seu Nome</label>
             <input type="text" class="formItens" id="nameOrgan">
-            <label class="formTexts" for="passwordOrgan">Password</label>
+            <p id="errorMsgName" class="formItens"> </p>
+
+            <label class="formTexts" for="emailOrgan">Digite o seu Email</label>
+            <input type="text" class="formItens" id="emailOrgan">
+            <p id="errorMsgEmail" class="formItens"> </p>
+
+            <label class="formTexts" for="passwordOrgan">Digite a sua senha</label>
             <input type="password" class="formItens" id="passwordOrgan">
-            <p class="formTexts">Dont Have an account? Create in <a href="iuimim">Here</a></p>
+            <p id="errorMsgPassword" class="formItens"></p>
+            
+            <label class="formTexts" for="passwordOrgan">Confirme a sua Senha</label>
+            <input type="password" class="formItens" id="ConfirmPasswordOrgan">
+            <p id="errorMsgConfirmPassword" class="formItens"> </p>
+
+            <span class="formTexts">Dont Have an account? Create in <a  href="iuimim">Here</a></span>
+           <!-- Aqui vai a mensagem de esqueceu sua senha
+            <span class="formTexts">Dont Have an account? Create in <a  href="iuimim">Here</a></span>
+            --> 
+            <input type="submit" value="Enviar">
         </form>
     </section>
     <script src="script.js"></script>

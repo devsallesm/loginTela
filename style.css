@@ -51,9 +51,20 @@ body {
     color: black ;
 }
 
+
 .formItens p {
     color: white;
 }
 .formItens p a{
     color:chartreuse;
+}
+
+.error {
+    border-color: red;
+    color: red;
+    display: none;
+}
+.formItens label {
+    font-weight: 700;
+    font-size: 20px;
 }
