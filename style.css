@@ -63,6 +63,7 @@ body {
     border-color: red;
     color: red;
     display: none;
+    visibility: hidden;
 }
 .formItens label {
     font-weight: 700;
